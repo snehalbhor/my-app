@@ -1,0 +1,75 @@
+.aboutus {
+  background-image: url("/public/baground.jpg");
+  background-size: cover;
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Add background color for better visibility */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px; /* Ensure padding inside the card content */
+  color: white;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Specific card positioning adjustments */
+.card.first-card {
+  margin-right: 600px; 
+}
+
+.card.second-card-right {
+  margin-left: 600px; /* Align the second card to the right */
+  /* margin-right: auto;  */
+}
+
+.card.third-card {
+  margin-right: 600px; /* Center the third card */
+  line-height: 1;
+}
+
+
+
+
+
+
+  
+  
+
+

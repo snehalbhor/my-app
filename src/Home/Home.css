@@ -1,0 +1,38 @@
+.home1 {
+  height: 400px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end; /* align content to the bottom */
+  padding: 300px; /* adjust as needed */
+}
+
+.moto {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 50px;
+  margin-right: 300px;
+  width: 100px;
+  padding-top: 100px;
+  /* max-width:100px; */
+}
+
+.thought {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  padding-top: 100px;
+  font-size: 20px; /* adjust font size as needed */
+  max-width: 800px; /* set max width to prevent text from stretching too wide */
+  /* margin: 20px;  */
+  position: relative; /* to position the pseudo-element */
+}
+.thought::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -60px; /* adjust the position of the line as needed */
+  width: 3px; /* width of the line */
+  background-color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* shadow effect */
+}
